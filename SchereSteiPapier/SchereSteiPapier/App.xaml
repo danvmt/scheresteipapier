@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SchereSteiPapier.App">
+	<Application.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+                <!--<Setter Property="BorderColor" Value="#191901" />-->
+                <Setter Property="BorderRadius" Value="5" />
+                <!--<Setter Property="BorderWidth" Value="5" />-->
+                <Setter Property="WidthRequest" Value="200" />
+                <!--<Setter Property="TextColor" Value="#ec008a" />-->
+                <Setter Property="TextColor" Value="White" /> 
+                <!--<Setter Property="BackgroundColor" Value="#514d50" />-->
+                <Setter Property="BackgroundColor" Value="#616161" />
+                <!--<Setter Property="ButtonBackgroundPointerOver" Value="#adada1" />
+                <Setter Property="ButtonBackgroundPressed" Value="#75756a" />-->
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

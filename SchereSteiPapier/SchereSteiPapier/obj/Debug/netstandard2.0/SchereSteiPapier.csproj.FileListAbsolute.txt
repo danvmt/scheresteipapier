@@ -1,0 +1,14 @@
+C:\Users\Dan Valmitjana\Projects\SchereSteiPapier\SchereSteiPapier\SchereSteiPapier\bin\Debug\netstandard2.0\SchereSteiPapier.deps.json
+C:\Users\Dan Valmitjana\Projects\SchereSteiPapier\SchereSteiPapier\SchereSteiPapier\bin\Debug\netstandard2.0\SchereSteiPapier.dll
+C:\Users\Dan Valmitjana\Projects\SchereSteiPapier\SchereSteiPapier\SchereSteiPapier\bin\Debug\netstandard2.0\SchereSteiPapier.pdb
+C:\Users\Dan Valmitjana\Projects\SchereSteiPapier\SchereSteiPapier\SchereSteiPapier\obj\Debug\netstandard2.0\SchereSteiPapier.csproj.CoreCompileInputs.cache
+C:\Users\Dan Valmitjana\Projects\SchereSteiPapier\SchereSteiPapier\SchereSteiPapier\obj\Debug\netstandard2.0\SchereSteiPapier.App.xaml.g.cs
+C:\Users\Dan Valmitjana\Projects\SchereSteiPapier\SchereSteiPapier\SchereSteiPapier\obj\Debug\netstandard2.0\SchereSteiPapier.MainPage.xaml.g.cs
+C:\Users\Dan Valmitjana\Projects\SchereSteiPapier\SchereSteiPapier\SchereSteiPapier\obj\Debug\netstandard2.0\SchereSteiPapier.ResultPage.xaml.g.cs
+C:\Users\Dan Valmitjana\Projects\SchereSteiPapier\SchereSteiPapier\SchereSteiPapier\obj\Debug\netstandard2.0\SchereSteiPapier.SelectionPage.xaml.g.cs
+C:\Users\Dan Valmitjana\Projects\SchereSteiPapier\SchereSteiPapier\SchereSteiPapier\obj\Debug\netstandard2.0\SchereSteiPapier.StatisticsPage.xaml.g.cs
+C:\Users\Dan Valmitjana\Projects\SchereSteiPapier\SchereSteiPapier\SchereSteiPapier\obj\Debug\netstandard2.0\SchereSteiPapier.AssemblyInfoInputs.cache
+C:\Users\Dan Valmitjana\Projects\SchereSteiPapier\SchereSteiPapier\SchereSteiPapier\obj\Debug\netstandard2.0\SchereSteiPapier.AssemblyInfo.cs
+C:\Users\Dan Valmitjana\Projects\SchereSteiPapier\SchereSteiPapier\SchereSteiPapier\obj\Debug\netstandard2.0\SchereSteiPapier.dll
+C:\Users\Dan Valmitjana\Projects\SchereSteiPapier\SchereSteiPapier\SchereSteiPapier\obj\Debug\netstandard2.0\SchereSteiPapier.pdb
+C:\Users\Dan Valmitjana\Projects\SchereSteiPapier\SchereSteiPapier\SchereSteiPapier\obj\Debug\netstandard2.0\SchereSteiPapier.csprojResolveAssemblyReference.cache

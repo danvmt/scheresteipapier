@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SchereSteiPapier.StatisticsPage"
+             Title="Statistics">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="HorizontalTextAlignment" Value="Start" />
+                <Setter Property="TextColor" Value="Black" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <ContentView BackgroundColor="#F5F5F5">
+            <Grid x:Name="controlGrid" 
+                  RowSpacing="5" 
+                  ColumnSpacing="5" 
+                  Padding="10" 
+                  HorizontalOptions="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="100" />
+                </Grid.ColumnDefinitions>
+                <Label Text="Last Selection"
+                       Grid.Row="0" 
+                       Grid.Column="0" />
+                <Label x:Name="selectLabel" 
+                       Text="" 
+                       Grid.Row="0" 
+                       Grid.Column="1" />
+                <Label Text="Rock" 
+                       Grid.Row="1"
+                       Grid.Column="0" />
+                <Label x:Name="rockLabel" 
+                       Text="{Binding 'Rock'}" 
+                       Grid.Row="1" 
+                       Grid.Column="1" />
+                <Label Text="Paper" 
+                       Grid.Row="2" 
+                       Grid.Column="0" />
+                <Label x:Name="paperLabel" 
+                       Text="{Binding 'Paper'}" 
+                       Grid.Row="2" 
+                       Grid.Column="1" />
+                <Label Text="Scossirs" 
+                       Grid.Row="3" 
+                       Grid.Column="0" />
+                <Label x:Name="scissorsLabel" 
+                       Text="{Binding 'Scissors'}" 
+                       Grid.Row="3" 
+                       Grid.Column="1" />
+            </Grid>
+            <!--<StackLayout
+            Margin="20,0,20,0"
+            VerticalOptions="Center">
+
+                <Label x:Name="selectLabel"
+                   Text="text"
+                   FontSize="Large"
+                   HorizontalTextAlignment="Start"
+                   TextColor="Black" />
+                
+                <Label x:Name="rockLabel"
+                   Text="{Binding 'Rock'}"
+                   FontSize="Large"
+                   HorizontalTextAlignment="Start"
+                   TextColor="Black" />
+
+                <Label x:Name="paperLabel"
+                   Text="{Binding 'Paper'}"
+                   FontSize="Large"
+                   HorizontalTextAlignment="Start"
+                   TextColor="Black" />
+
+                <Label x:Name="scissorsLabel"
+                   Text="{Binding 'Scissors'}"
+                   FontSize="Large"
+                   HorizontalTextAlignment="Start"
+                   TextColor="Black" />
+
+            </StackLayout>-->
+        </ContentView>
+    </ContentPage.Content>
+</ContentPage>

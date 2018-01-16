@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SchereSteiPapier.SelectionPage">
+    <ContentPage.Content>
+        <ContentView BackgroundColor="#F5F5F5">
+            <StackLayout
+            Margin="20,0,40,0"
+            VerticalOptions="Center">
+
+                <Label x:Name="valueLabel"
+                   Text="Make a selection."
+                   FontSize="Large"
+                   HorizontalTextAlignment="Start"
+                   TextColor="Black" />
+
+                <Image x:Name="rockImage"
+                   HeightRequest="40" 
+                   Source="rock.png" 
+                   HorizontalOptions="Start">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="OnRockClicked"
+                            NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
+
+                <Image x:Name="paperImage"
+                   HeightRequest="40" 
+                   Source="paper.png" 
+                   HorizontalOptions="Start">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="OnPaperClicked"
+                            NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
+
+                <Image x:Name="scissorsImage"
+                   HeightRequest="40" 
+                   Source="scissors.png" 
+                   HorizontalOptions="Start">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="OnScissorsClicked"
+                            NumberOfTapsRequired="1" />
+                    </Image.GestureRecognizers>
+                </Image>
+
+                <!--<Button x:Name="rockButton"
+                    Text="Rock"
+                    Clicked="OnRockClicked" />
+
+                <Button x:Name="paperButton"
+                    Text="Paper"
+                    Clicked="OnPaperClicked" />
+
+                <Button x:Name="scissorsButton"
+                    Text="Scissors"
+                    Clicked="OnScissorsClicked" />-->
+            </StackLayout>
+        </ContentView>
+    </ContentPage.Content>
+</ContentPage>

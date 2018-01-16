@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SchereSteiPapier.ResultPage"
+             Title="Results"
+             x:Name="ResultPage">
+    <ContentPage.Content>
+        <ContentView BackgroundColor="#F5F5F5">
+            <StackLayout
+            Margin="20,0,40,0"
+            VerticalOptions="Center">
+
+                <Label x:Name="resultLabel"
+                   Text="who won?"
+                   FontSize="Large"
+                   HorizontalTextAlignment="Center"
+                   TextColor="Black" />
+
+                <Image x:Name="resultImage"
+                   HeightRequest="200" 
+                   Source="rps.png" />
+                
+                <Button x:Name="startNewButton"
+                    Text="Start New Game"
+                    Clicked="OnStartNewClicked" />
+              
+                <Button x:Name="homeButton"
+                    Text="Home"
+                    Clicked="OnHomeClicked" />
+
+            </StackLayout>
+        </ContentView>
+    </ContentPage.Content>
+</ContentPage>
